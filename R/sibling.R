@@ -22,3 +22,9 @@ sibling.phylo <- function(.data, .node, ...) {
     sib <- cc[cc != .node]
     return(sib)
 }
+
+##' @method sibling treedata
+##' @export
+sibling.treedata <- function(.data, .node, ...){
+    sibling(as.phylo(.data), .node, ...)
+}
