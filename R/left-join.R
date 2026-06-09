@@ -19,7 +19,7 @@ left_join.treedata <- function(x, y, by = NULL, copy = FALSE, suffix=c("", ".y")
         cli::cli_warn(msg)
         suffix <- rev(suffix[seq_len(2)])
     }
-    da <- dplyr::left_join(dat, y, by = by, copy = copy, suffix = suffix, ...)
+    da <- dplyr::left_join(dat, dplyr::distinct(y), by = by, copy = copy, suffix = suffix, ...)
 
     if (any(duplicated(da$node))){
         da %<>% .internal_nest(keepnm=ornm)

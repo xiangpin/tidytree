@@ -24,7 +24,7 @@ full_join.treedata <- function(x, y, by = NULL,
         suffix <- rev(suffix[seq_len(2)])
     }
     
-    da <- dplyr::full_join(dat, y, by = by, copy = copy, suffix = suffix, ...)
+    da <- dplyr::full_join(dat, dplyr::distinct(y), by = by, copy = copy, suffix = suffix, ...)
 
     da <- da[!is.na(da$node),]
 
