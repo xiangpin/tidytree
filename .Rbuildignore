@@ -8,3 +8,5 @@ README.md
 TODO.md
 ^CRAN-SUBMISSION$
 .vscode
+^\.dev$
+.agents/

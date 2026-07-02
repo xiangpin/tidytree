@@ -9,7 +9,7 @@ bibentry(
     year = "2022",
 	edition = "1st edition",
     doi = "10.1201/9781003279242",
-    url = "https://www.taylorfrancis.com/books/mono/10.1201/9781003279242/",
+    url = "https://www.taylorfrancis.com/books/mono/10.1201/9781003279242/data-integration-manipulation-visualization-phylogenetic-trees-guangchuang-yu",
     textVersion = paste(
             "Guangchuang Yu. ",
             "Data Integration, Manipulation and Visualization of Phylogenetic Trees (1st edition).",

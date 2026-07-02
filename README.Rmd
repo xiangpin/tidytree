@@ -25,7 +25,7 @@ library("badger")
 cat(packageDescription('tidytree')$Description)
 ```
 
-Visit <https://yulab-smu.top/treedata-book/> for details.
+Visit <https://yulab-smu.top/treedata-book-2ed/> for details.
 
 
 ## :writing_hand: Author
@@ -34,11 +34,7 @@ Guangchuang YU
 
 School of Basic Medical Sciences, Southern Medical University
 
-<https://guangchuangyu.github.io>
-
-[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
-`r badger::badge_custom("follow me on", "WeChat", "green", "https://guangchuangyu.github.io/blog_images/biobabble.jpg")`
-
+<https://yulab-smu.top>
 
 
 ## :arrow_double_down: Installation
